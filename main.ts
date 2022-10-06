@@ -1,5 +1,7 @@
 radio.setGroup(1)
 
+// --- Transmitter ---
+
 let step = 800 / 7;
 let x = 0;
 let y = 0;
@@ -50,9 +52,11 @@ basic.forever(function() {
         soroban.showNumber(toSend[1], Align.C5, false)
     }
 
-    basic.pause(200)
+    // basic.pause(100)
 })
 
+
+// --- Receiver ---
 
 pfTransmitter.connectIrSenderLed(AnalogPin.P0)
 
