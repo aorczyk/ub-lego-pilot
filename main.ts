@@ -12,6 +12,7 @@ input.onButtonPressed(Button.A, function () {
         led.plot(2, 2)
     } else {
         led.unplot(2, 2)
+        radio.sendString([0,0].join(";"))
     }
 })
 
