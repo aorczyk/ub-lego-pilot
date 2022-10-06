@@ -1,0 +1,27 @@
+{
+    "name": "uB Lego Pilot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "PF Transmitter": "github:aorczyk/lego-pf-transmitter#v0.0.7",
+        "Soroban": "github:aorczyk/soroban#v1.0.11"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
