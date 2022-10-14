@@ -5,8 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "PF Transmitter": "github:aorczyk/lego-pf-transmitter#v0.0.7",
-        "Soroban": "github:aorczyk/soroban#v1.0.11"
+        "PF Transmitter": "github:aorczyk/lego-pf-transmitter#v0.0.7"
     },
     "files": [
         "main.ts",
