@@ -73,7 +73,7 @@ basic.forever(function() {
         outX = 0
         outY = 0
     }
-
+    // ToDo: zleca czeka i anuluje jeśli się zmieni do tej pory.
     if (outX != x || outY != y) {
         radio.sendString([outX, outY].join(";"))
 
